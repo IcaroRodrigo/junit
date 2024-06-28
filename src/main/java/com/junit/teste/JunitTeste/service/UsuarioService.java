@@ -19,4 +19,8 @@ public class UsuarioService {
         usuarios.add(usuario);
         return usuarios;
     }
+
+    public List<User> get(){
+        return usuarios;
+    }
 }
